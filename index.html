@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BOX Icons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="logo">Akanksha</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#project" onclick="toggleMenu();">Project</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Accomplishments</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main Home Text And Image -->
+    <section id="home">
+        <div class="home-text">
+            <h1>Hy, I'm <br>Akanksha <span>Vishwakarma</span> <br>Web Developer</h1>
+            <!-- Button -->
+            <a href="#contact">Hire Me</a>
+        </div>
+        <!-- Home Image -->
+        <div class="home-img">
+            <img src="images/akansha.jpeg" alt="">
+        </div>
+
+        <!-- Social -->
+        <div class="social">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-github' ></i>
+        </div>
+    </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about" id="about">
+        <div class="heading">
+            <h2>About me </h2>
+        </div>
+
+    
+            <div class="row">
+    
+                <div class="image">
+                    <img  src="images/akansha.jpeg" alt="">
+                </div>
+    
+                <div class="content">
+                    <h1>Hy, I'm <br>Akanksha Vishwakarma</h1>
+                    <p class="info">Seeking a position to utilize my skills and abilities in a dynamic environment that offers professional as well as a personal growth 
+                        while being innovative, resourceful and flexible at the same time..</p>
+                    <div class="box-container">
+                        <div class="box">
+                            <p> <span> phone : </span> +91-6372113341
+                            </p>
+                            <p> <span> email : </span> akankshavish127@gmail.com</p>
+                            <p> <span> address : </span> Bokaro Jharkhand, India - 829112 </p>
+                        </div>
+                    </div>
+                    <a href="#" target="_blank" class="btn middle">download CV</a>
+    
+                </div>
+
+      </section>
+
+
+    <section class="skills_section" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+        </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
+                  <span class="skills__number">95%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__html"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CSS</h3>
+                  <span class="skills__number">90%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__css"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Javascript</h3>
+                  <span class="skills__number">50%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__js"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Java</h3>
+                  <span class="skills__number">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__react"></span>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- --------------------------------------------------------- -->
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+    <section class="Project" id="project">
+
+        <div class="heading">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box tilt">
+                <img src="images/hackerrank.jpg" alt="">
+                <h3> HackerRank Automation </h3>
+                <p> It is a demo project on how web automation works.The technologies used here is JS and Puppeteer.</p>
+                <br>
+                <a href="https://github.com/akanksha127/hackerank_automation"class="btn1" >To Check</a>
+            </div>
+
+            <div class="box tilt">
+                <img src="images/port.jpg" alt="">
+                <h3> My Personal Portfolio </h3>
+                <p>My personal portfolio website made using HTML,CSS and JavaScript.</p>
+                 <br>
+                <a href="#"class="btn1" >To Check</a>
+            </div>
+
+            <div class="box tilt">
+                <img src="images/openboard.png" alt="">
+                <h3> Openboard Clone </h3>
+                <p>A frontend project of OpenBoard which is used for drawing. The technologies used here are HTML, CSS and JavaScript.</p>
+                 <br>
+                <a href="#"class="btn1" >To Check</a>
+            </div>
+            
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Accomplishments -->
+    <section id="services">
+        <div class="heading">
+            <h2>Accomplishments</h2>
+        </div>
+        <div class="services-content">
+            <!-- Boxes -->
+            <div class="box">
+                <img src="images/hackerrank.jpg" alt="">
+                <a class="a-box" href="https://www.hackerrank.com/certificates/cd988db8be97"><h1>HackerRank Java(Basic)</h1></a>
+                <p>Certification for basic java programming on HackerRank platform.</p>
+            </div>
+            <div class="box">
+                <img src="images/hackerrank.jpg" alt="">
+                <a class="a-box" href="https://www.hackerrank.com/dashboard"><h1>5 Stars in SQL</h1></a>
+                <p>Earned 5 stars in SQL on the platform of HackerRank.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/simplilearn.jpg" alt="">
+                <a class="a-box" href="https://www.linkedin.com/in/akanksha-vishwakarma-4a5a23217/recent-activity/shares/"><h1>Front End Development</h1></a>
+                <p>Successfully completed the frontend development course by Simplilearn</p>
+            </div>
+
+            <div class="box">
+                <img src="images/hackerrank.jpg" alt="">
+                <a class="a-box" href="https://www.hackerrank.com/dashboard"><h1>Problem Solving</h1></a>
+                <p>Earned 3 stars in problem solving on the platform of HackerRank.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work">
+        <div class="heading work-heading">
+            <h2>Education</h2>
+        </div>
+        <div class="work-content">
+            
+              
+                    <ul class="edu">
+                   <li>Gandhi Engineering College, Bhubaneswar
+                        <span class="edu-1">2019-2023(Expected)</span>
+                        <p>B.Tech(CSE)</p>
+                    </li>
+                        <br>
+                   <li>Pitts Modern School, Gomia
+                      <span class="edu-1">2017-2019</span>
+                      <p>12th</p>
+                      </li>
+                      <br>
+                   <li>Pitts Modern School, Gomia
+                    <span class="edu-1">2017</span>
+                    <p>10th</p>
+                   </li>
+                   <br>
+                   </ul>
+                 
+            
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="heading color">
+            <h2>Get in touch</h2>
+        </div>
+        <div class="contact-content">
+
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Your E-mail">
+                    
+                    <input type="number" placeholder="Your Number">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                    <input type="button" value="Send" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&#169; 2021  All Right Reserves</p>
+    </div>
+
+
+
+
+
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+</body>
+</html>
